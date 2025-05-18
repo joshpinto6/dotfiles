@@ -42,6 +42,10 @@ return {
   'nvim-lualine/lualine.nvim',
   dependencies = { 'nvim-tree/nvim-web-devicons' },
   config = function()
+    local my_filename = require('lualine.components.filename'):extend()
+    my_filename.apply_icon = require('lualine.components.filetype').apply_icon
+    my_filename.icon_hl_cache = {}
+
     require('lualine').setup {
       theme = 'gruvbox',
       disabled_filetypes = { 'neo-tree' },
@@ -49,6 +53,8 @@ return {
         lualine_y = {
           get_wakatime,
         },
+
+        lualine_c = { { my_filename, colored = true } },
       },
     }
   end,
