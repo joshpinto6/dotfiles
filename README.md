@@ -1,6 +1,6 @@
-# ⚙️ My Dotfils
+# ⚙️ My Dotfiles
 
-Everything I use to develop projects that could be subjectively viewed as either a) 🗑️ juk or b) ✨ beautifully-crafted experiences valuing simplicity and openness. 
+Everything I use to develop projects that could be subjectively viewed as either a) 🗑️ jnk or b) ✨ beautifully-crafted experiences valuing simplicity and openness. 
 
 ## 📖 Table of Contents
 
@@ -11,11 +11,11 @@ Everything I use to develop projects that could be subjectively viewed as either
 
 ### ⌨️ Neovim
 
-A fairly minimal kickstart.nvim configuration with added flair. A cozy Gruvbox theme with a snazzy tabby-based navigation bar, stylish noice notifications, streamlined Neogit VCS control, and a customized lualine with wakatime. 
+A fairly minimal kickstart.nvim configuration with added flair. A cozy 📦 Gruvbox theme with a 😺 snazzy tabby-based navigation bar, 💥 stylish noice notifications, 💽 streamlined Neogit VCS control, and a ⏲️ customized lualine with wakatime. 
 
 ### 🌀 WezTerm
 
-Focused on compatibility with the neovim theme, terminal emulation features a statusbar, compatibility with device UI mode, transparent terminal, and support for persistent, workspace-based multiplexing.
+Focused on compatibility with the neovim theme, ⌚ terminal emulation features a statusbar, 💻 compatibility with device UI mode, 🌫️ transparent terminal, and 💾 support for persistent, workspace-based multiplexing.
 
 ## 🙌 Acknowledgements
 
