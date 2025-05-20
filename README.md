@@ -1,11 +1,12 @@
 # ⚙️ My Dotfiles
 
-Everything I use to develop projects that could be subjectively viewed as either a) 🗑️ jnk or b) ✨ beautifully-crafted experiences valuing simplicity and openness. 
+Everything I use to develop projects that could be considered either, _a) 🗑️ junk_ or _b) ✨ beautifully-crafted experiences valuing simplicity and openness,_ depending on your perspective.
 
 ## 📖 Table of Contents
 
-- Neovim (Text Editor) Config
-- Wezterm (Terminal Emulator) Config
+- [Neovim Config](#-neovim) (Text Editor)
+- [Wezterm Config](#-wezterm) (Terminal Emulator) 
+- [Demo](#-demo)
 
 ## Config Overview(s)
 
@@ -16,6 +17,11 @@ A fairly minimal kickstart.nvim configuration with added flair. A cozy 📦 Gruv
 ### 🌀 WezTerm
 
 Focused on compatibility with the neovim theme, ⌚ terminal emulation features a statusbar, 💻 compatibility with device UI mode, 🌫️ transparent terminal, and 💾 support for persistent, workspace-based multiplexing.
+
+## 📸 Demo
+
+![image](https://github.com/user-attachments/assets/297c3e10-f4e0-43c5-bab1-23afa6476d16)
+
 
 ## 🙌 Acknowledgements
 
@@ -29,3 +35,4 @@ Focused on compatibility with the neovim theme, ⌚ terminal emulation features 
 - [ ] fix keymaps and keymap hint UI
 - [ ] add copilot/avante
 - [ ] toggleterm
+- [ ] demo video
