@@ -158,6 +158,11 @@ local function segments_for_right_status(window)
 end
 
 wezterm.on("update-status", function(window, _)
+	if appearance.is_light() then
+		config.color_scheme = "Gruvbox (Gogh)"
+	else
+		config.color_scheme = "Gruvbox Dark (Gogh)"
+	end
 	local SOLID_LEFT_ARROW = utf8.char(0xe0b2)
 	local segments = segments_for_right_status(window)
 

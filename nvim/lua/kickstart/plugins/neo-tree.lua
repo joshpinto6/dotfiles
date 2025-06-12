@@ -14,6 +14,10 @@ return {
     { '<leader>ue', ':Neotree reveal<CR>', desc = '[U]I: Show [E]', silent = true },
   },
   opts = {
+    source_selector = {
+      winbar = true,
+      statusline = false,
+    },
     filesystem = {
       filtered_items = {
         visible = true, -- This is what you want: If you set this to `true`, all "hide" just mean "dimmed out"

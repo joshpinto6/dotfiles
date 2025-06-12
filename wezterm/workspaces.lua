@@ -31,7 +31,7 @@ local function createPanes(tab, panes, initialSize)
 
 	-- Special case
 	if #panes == 1 then
-		firstPane:send_text("cd " .. panes[1].cwd .. " && clear\n")
+		firstPane:send_text("cd " .. panes[1].cwd:sub(2) .. " \r")
 		return
 	end
 
@@ -50,7 +50,7 @@ local function createPanes(tab, panes, initialSize)
 
 		if paneIndex == 1 then
 			nextPane = firstPane:split({ cwd = nextPaneInfo.cwd, direction = direction, size = size })
-			firstPane:send_text("cd " .. paneInfo.cwd .. " && clear\n") -- hacky way to change directory for the first pane. Hopefully something better comes out
+			firstPane:send_text("cd " .. panes[1].cwd:sub(2) .. " \r") -- hacky way to change directory for the first pane. Hopefully something better comes out
 		else
 			nextPane = nextPane:split({ cwd = nextPaneInfo.cwd, direction = direction, size = size })
 		end
